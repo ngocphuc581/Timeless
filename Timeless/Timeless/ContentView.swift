@@ -9,11 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        HStack {
+            Text("hello-string")
+                .font(Font.phosphate(size: 20))
+                .foregroundColor(Color.chatTextColorBackground)
+            Text("introduction-string \("Mario")")
+                .font(.custom("Phosphate", fixedSize: 20))
+            Text("introduction")
+                .font(.system(size: 20))
         }
         .padding()
     }
