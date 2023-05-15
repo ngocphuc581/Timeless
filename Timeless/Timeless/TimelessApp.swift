@@ -11,7 +11,8 @@ import SwiftUI
 struct TimelessApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            WalkThroughtScreenView()
         }
     }
 }

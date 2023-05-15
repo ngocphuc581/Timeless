@@ -33,6 +33,7 @@
 		8E5123BD2A0E2F2000C08EC4 /* SFProDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5123B02A0E2F1F00C08EC4 /* SFProDisplay-Black.otf */; };
 		8E5123BF2A0E35B900C08EC4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123BE2A0E35B900C08EC4 /* Color.swift */; };
 		8E5123C12A0E37AD00C08EC4 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5123C02A0E37AD00C08EC4 /* Color.xcassets */; };
+		8E5123C52A108AAA00C08EC4 /* WalkThroughtScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123C42A108AAA00C08EC4 /* WalkThroughtScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		8E5123B02A0E2F1F00C08EC4 /* SFProDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.otf"; sourceTree = "<group>"; };
 		8E5123BE2A0E35B900C08EC4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		8E5123C02A0E37AD00C08EC4 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		8E5123C42A108AAA00C08EC4 /* WalkThroughtScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughtScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 		8E51237B2A0E25D200C08EC4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				8E5123C42A108AAA00C08EC4 /* WalkThroughtScreenView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E5123442A0E124000C08EC4 /* ContentView.swift in Sources */,
+				8E5123C52A108AAA00C08EC4 /* WalkThroughtScreenView.swift in Sources */,
 				8E5123BF2A0E35B900C08EC4 /* Color.swift in Sources */,
 				8E5123422A0E124000C08EC4 /* TimelessApp.swift in Sources */,
 				8E5123A32A0E2E5800C08EC4 /* Font.swift in Sources */,

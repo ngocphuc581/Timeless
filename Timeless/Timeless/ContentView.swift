@@ -6,19 +6,44 @@
 //
 
 import SwiftUI
+import AVKit
+import AVFoundation
 
 struct ContentView: View {
-    var body: some View {
-        HStack {
-            Text("hello-string")
-                .font(Font.phosphate(size: 20))
-                .foregroundColor(Color.chatTextColorBackground)
-            Text("introduction-string \("Mario")")
-                .font(.custom("Phosphate", fixedSize: 20))
-            Text("introduction")
-                .font(.system(size: 20))
+    func test() {
+        guard let path = Bundle.main.url(forResource: "splash", withExtension: "mp4") else {
+            print("file mp4 not found")
+            return
         }
-        .padding()
+        print("has data")
+    }
+    var body: some View {
+        ZStack {
+            player(player1: AVPlayer(url: Bundle.main.url(forResource: "splash", withExtension: "mp4")!))
+                .frame(width: 300, height: 300)
+            Button("CLick") {
+                test()
+            }
+        }
+        .ignoresSafeArea()
+    }
+}
+
+extension ContentView {
+    struct player : UIViewControllerRepresentable {
+        let player1 : AVPlayer
+        func makeUIViewController(context: Context) -> UIViewControllerType {
+            let controller = UIViewControllerType()
+            controller.player = player1
+            controller.view.backgroundColor = .clear
+            controller.showsPlaybackControls = false
+            controller.entersFullScreenWhenPlaybackBegins = true
+            return controller
+            
+        }
+        func updateUIViewController(_ uIViewController: AVPlayerViewController, context: UIViewControllerRepresentableContext<player>) {
+            
+        }
     }
 }
 
