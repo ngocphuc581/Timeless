@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "birthdayReq.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

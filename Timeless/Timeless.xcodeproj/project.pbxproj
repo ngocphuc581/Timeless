@@ -14,8 +14,6 @@
 		8E5123532A0E124200C08EC4 /* TimelessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123522A0E124200C08EC4 /* TimelessTests.swift */; };
 		8E51235D2A0E124200C08EC4 /* TimelessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51235C2A0E124200C08EC4 /* TimelessUITests.swift */; };
 		8E51235F2A0E124200C08EC4 /* TimelessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51235E2A0E124200C08EC4 /* TimelessUITestsLaunchTests.swift */; };
-		8E51236E2A0E1F0D00C08EC4 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E51236C2A0E1F0D00C08EC4 /* splash.mp4 */; };
-		8E51236F2A0E1F0D00C08EC4 /* walkthroughIntro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E51236D2A0E1F0D00C08EC4 /* walkthroughIntro.mp4 */; };
 		8E5123782A0E253600C08EC4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E51237A2A0E253600C08EC4 /* Localizable.strings */; };
 		8E5123A32A0E2E5800C08EC4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123A22A0E2E5800C08EC4 /* Font.swift */; };
 		8E5123B12A0E2F2000C08EC4 /* SFProRounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5123A42A0E2F1F00C08EC4 /* SFProRounded-Semibold.otf */; };
@@ -34,6 +32,20 @@
 		8E5123BF2A0E35B900C08EC4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123BE2A0E35B900C08EC4 /* Color.swift */; };
 		8E5123C12A0E37AD00C08EC4 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5123C02A0E37AD00C08EC4 /* Color.xcassets */; };
 		8E5123C52A108AAA00C08EC4 /* WalkThroughtScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123C42A108AAA00C08EC4 /* WalkThroughtScreenView.swift */; };
+		8E5123C72A11CB5900C08EC4 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5123C62A11CB5900C08EC4 /* SignUp.swift */; };
+		8E6CEACB2A11D49F00187A9E /* dna3_dance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E6CEAC82A11D49F00187A9E /* dna3_dance.mp4 */; };
+		8E6CEACC2A11D49F00187A9E /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E6CEAC92A11D49F00187A9E /* splash.mp4 */; };
+		8E6CEACD2A11D49F00187A9E /* walkthroughIntro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E6CEACA2A11D49F00187A9E /* walkthroughIntro.mp4 */; };
+		8E6CEACF2A11E3A300187A9E /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEACE2A11E3A300187A9E /* VerifyView.swift */; };
+		8E6CEAD32A11F1B000187A9E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8E6CEAD22A11F1B000187A9E /* Lottie */; };
+		8E6CEAD52A11F1D900187A9E /* loading-circle.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E6CEAD42A11F1D900187A9E /* loading-circle.json */; };
+		8E6CEAD72A11F25500187A9E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEAD62A11F25500187A9E /* LottieView.swift */; };
+		8E6CEADC2A12112600187A9E /* loadingApple.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E6CEADB2A12112500187A9E /* loadingApple.json */; };
+		8E6CEADE2A12162D00187A9E /* HeaderBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEADD2A12162D00187A9E /* HeaderBarView.swift */; };
+		8E6CEAE02A121B7600187A9E /* RestoreICloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEADF2A121B7600187A9E /* RestoreICloud.swift */; };
+		8E6CEAE22A122FA600187A9E /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEAE12A122FA600187A9E /* TextFieldView.swift */; };
+		8E6CEAE42A12306100187A9E /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEAE32A12306100187A9E /* SecureFieldView.swift */; };
+		8E6CEAE62A1238C500187A9E /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CEAE52A1238C500187A9E /* WalletView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +76,6 @@
 		8E5123582A0E124200C08EC4 /* TimelessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E51235C2A0E124200C08EC4 /* TimelessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelessUITests.swift; sourceTree = "<group>"; };
 		8E51235E2A0E124200C08EC4 /* TimelessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelessUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8E51236C2A0E1F0D00C08EC4 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = splash.mp4; path = "../../../../timeless-wallet/Timeless-wallet/Resources/Video/splash.mp4"; sourceTree = "<group>"; };
-		8E51236D2A0E1F0D00C08EC4 /* walkthroughIntro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = walkthroughIntro.mp4; path = "../../../../timeless-wallet/Timeless-wallet/Resources/Video/walkthroughIntro.mp4"; sourceTree = "<group>"; };
 		8E5123702A0E20B100C08EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8E5123792A0E253600C08EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8E5123A22A0E2E5800C08EC4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
@@ -85,6 +95,19 @@
 		8E5123BE2A0E35B900C08EC4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		8E5123C02A0E37AD00C08EC4 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		8E5123C42A108AAA00C08EC4 /* WalkThroughtScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughtScreenView.swift; sourceTree = "<group>"; };
+		8E5123C62A11CB5900C08EC4 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8E6CEAC82A11D49F00187A9E /* dna3_dance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dna3_dance.mp4; sourceTree = "<group>"; };
+		8E6CEAC92A11D49F00187A9E /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		8E6CEACA2A11D49F00187A9E /* walkthroughIntro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = walkthroughIntro.mp4; sourceTree = "<group>"; };
+		8E6CEACE2A11E3A300187A9E /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		8E6CEAD42A11F1D900187A9E /* loading-circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "loading-circle.json"; path = "../../../../../../Downloads/loading-circle.json"; sourceTree = "<group>"; };
+		8E6CEAD62A11F25500187A9E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		8E6CEADB2A12112500187A9E /* loadingApple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loadingApple.json; path = ../../../../../../Downloads/loadingApple.json; sourceTree = "<group>"; };
+		8E6CEADD2A12162D00187A9E /* HeaderBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBarView.swift; sourceTree = "<group>"; };
+		8E6CEADF2A121B7600187A9E /* RestoreICloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreICloud.swift; sourceTree = "<group>"; };
+		8E6CEAE12A122FA600187A9E /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		8E6CEAE32A12306100187A9E /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
+		8E6CEAE52A1238C500187A9E /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6CEAD32A11F1B000187A9E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +160,7 @@
 		8E5123402A0E124000C08EC4 /* Timeless */ = {
 			isa = PBXGroup;
 			children = (
+				8E6CEAD82A120F2C00187A9E /* Reuseable */,
 				8E51237B2A0E25D200C08EC4 /* Screens */,
 				8E5123722A0E21C500C08EC4 /* Resources */,
 				8E5123702A0E20B100C08EC4 /* Info.plist */,
@@ -177,8 +202,9 @@
 		8E51236B2A0E1EEC00C08EC4 /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				8E51236C2A0E1F0D00C08EC4 /* splash.mp4 */,
-				8E51236D2A0E1F0D00C08EC4 /* walkthroughIntro.mp4 */,
+				8E6CEAC82A11D49F00187A9E /* dna3_dance.mp4 */,
+				8E6CEAC92A11D49F00187A9E /* splash.mp4 */,
+				8E6CEACA2A11D49F00187A9E /* walkthroughIntro.mp4 */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -207,6 +233,7 @@
 		8E5123722A0E21C500C08EC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8E6CEAD02A11F0AB00187A9E /* Lotties */,
 				8E5123732A0E21D100C08EC4 /* Colors */,
 				8E5123712A0E20CF00C08EC4 /* Fonts */,
 			);
@@ -225,8 +252,32 @@
 			isa = PBXGroup;
 			children = (
 				8E5123C42A108AAA00C08EC4 /* WalkThroughtScreenView.swift */,
+				8E5123C62A11CB5900C08EC4 /* SignUp.swift */,
+				8E6CEACE2A11E3A300187A9E /* VerifyView.swift */,
+				8E6CEAD62A11F25500187A9E /* LottieView.swift */,
+				8E6CEADF2A121B7600187A9E /* RestoreICloud.swift */,
+				8E6CEAE52A1238C500187A9E /* WalletView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		8E6CEAD02A11F0AB00187A9E /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				8E6CEADB2A12112500187A9E /* loadingApple.json */,
+				8E6CEAD42A11F1D900187A9E /* loading-circle.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		8E6CEAD82A120F2C00187A9E /* Reuseable */ = {
+			isa = PBXGroup;
+			children = (
+				8E6CEADD2A12162D00187A9E /* HeaderBarView.swift */,
+				8E6CEAE12A122FA600187A9E /* TextFieldView.swift */,
+				8E6CEAE32A12306100187A9E /* SecureFieldView.swift */,
+			);
+			path = Reuseable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +296,9 @@
 			dependencies = (
 			);
 			name = Timeless;
+			packageProductDependencies = (
+				8E6CEAD22A11F1B000187A9E /* Lottie */,
+			);
 			productName = Timeless;
 			productReference = 8E51233E2A0E124000C08EC4 /* Timeless.app */;
 			productType = "com.apple.product-type.application";
@@ -317,6 +371,9 @@
 				Base,
 			);
 			mainGroup = 8E5123352A0E124000C08EC4;
+			packageReferences = (
+				8E6CEAD12A11F1B000187A9E /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 8E51233F2A0E124000C08EC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,17 +395,20 @@
 				8E5123B22A0E2F2000C08EC4 /* SFProText-Light.otf in Resources */,
 				8E5123782A0E253600C08EC4 /* Localizable.strings in Resources */,
 				8E5123B52A0E2F2000C08EC4 /* SFProRounded-Bold.otf in Resources */,
-				8E51236E2A0E1F0D00C08EC4 /* splash.mp4 in Resources */,
+				8E6CEADC2A12112600187A9E /* loadingApple.json in Resources */,
 				8E5123C12A0E37AD00C08EC4 /* Color.xcassets in Resources */,
+				8E6CEACC2A11D49F00187A9E /* splash.mp4 in Resources */,
+				8E6CEACD2A11D49F00187A9E /* walkthroughIntro.mp4 in Resources */,
 				8E5123BC2A0E2F2000C08EC4 /* SFProDisplay-Semibold.otf in Resources */,
 				8E5123492A0E124100C08EC4 /* Preview Assets.xcassets in Resources */,
 				8E5123B92A0E2F2000C08EC4 /* Phosphate.ttc in Resources */,
+				8E6CEACB2A11D49F00187A9E /* dna3_dance.mp4 in Resources */,
 				8E5123B32A0E2F2000C08EC4 /* SFProDisplay-Medium.otf in Resources */,
+				8E6CEAD52A11F1D900187A9E /* loading-circle.json in Resources */,
 				8E5123B12A0E2F2000C08EC4 /* SFProRounded-Semibold.otf in Resources */,
 				8E5123BB2A0E2F2000C08EC4 /* SFProRounded-Regular.otf in Resources */,
 				8E5123B72A0E2F2000C08EC4 /* SFProText-Medium.otf in Resources */,
 				8E5123462A0E124100C08EC4 /* Assets.xcassets in Resources */,
-				8E51236F2A0E1F0D00C08EC4 /* walkthroughIntro.mp4 in Resources */,
 				8E5123B62A0E2F2000C08EC4 /* SFProDisplay-Regular.otf in Resources */,
 				8E5123BA2A0E2F2000C08EC4 /* SFProText-Semibold.otf in Resources */,
 				8E5123B82A0E2F2000C08EC4 /* SFProText-Bold.otf in Resources */,
@@ -376,11 +436,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6CEAE02A121B7600187A9E /* RestoreICloud.swift in Sources */,
+				8E6CEAE62A1238C500187A9E /* WalletView.swift in Sources */,
+				8E6CEAE22A122FA600187A9E /* TextFieldView.swift in Sources */,
+				8E6CEACF2A11E3A300187A9E /* VerifyView.swift in Sources */,
+				8E6CEADE2A12162D00187A9E /* HeaderBarView.swift in Sources */,
 				8E5123442A0E124000C08EC4 /* ContentView.swift in Sources */,
+				8E5123C72A11CB5900C08EC4 /* SignUp.swift in Sources */,
+				8E6CEAE42A12306100187A9E /* SecureFieldView.swift in Sources */,
 				8E5123C52A108AAA00C08EC4 /* WalkThroughtScreenView.swift in Sources */,
 				8E5123BF2A0E35B900C08EC4 /* Color.swift in Sources */,
 				8E5123422A0E124000C08EC4 /* TimelessApp.swift in Sources */,
 				8E5123A32A0E2E5800C08EC4 /* Font.swift in Sources */,
+				8E6CEAD72A11F25500187A9E /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +780,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E6CEAD12A11F1B000187A9E /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E6CEAD22A11F1B000187A9E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E6CEAD12A11F1B000187A9E /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E5123362A0E124000C08EC4 /* Project object */;
 }

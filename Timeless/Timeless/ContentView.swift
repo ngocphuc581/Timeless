@@ -21,9 +21,7 @@ struct ContentView: View {
         ZStack {
             player(player1: AVPlayer(url: Bundle.main.url(forResource: "splash", withExtension: "mp4")!))
                 .frame(width: 300, height: 300)
-            Button("CLick") {
-                test()
-            }
+            
         }
         .ignoresSafeArea()
     }

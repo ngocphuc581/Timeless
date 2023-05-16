@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct WalkThroughtScreenView: View {
+    @State var showingBottomSheet = false
+    @State var issue = false
     var body: some View {
         VStack {
-            VStack {
-                MediaResourceView
+            if issue {
+                SignUp()
+            } else {
+                VStack {
+                    VStack {
+                        MediaResourceView
+                    }
+                    bottomView
+                }
+                .background(.black)
+                .sheet(isPresented: $showingBottomSheet) {
+                    SignUp()
+                        .presentationDetents([.large])
+                        .presentationCornerRadius(10)
+                }
             }
-            bottomView
         }
-        .background(.black)
     }
 }
 
@@ -35,7 +48,7 @@ extension WalkThroughtScreenView {
                     Text("abcdefgh")
                         .font(.sfProTextBold(size: 30))
                         .foregroundColor(.white)
-                        .fixedSize(horizontal: false, vertical: true)
+//                        .fixedSize(horizontal: false, vertical: true)
                         .multilineTextAlignment(.center)
                         .padding(.bottom, 23)
                     Text("cznbxcnmuqwy jkhsd zbnxc")
@@ -44,25 +57,28 @@ extension WalkThroughtScreenView {
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 40)
                 }
-                .background(.blue)
+//                .background(.blue)
             }
-            Spacer(minLength: 0)
+            Spacer()
         }
     }
     
     var bottomView: some View {
         VStack {
             HStack {
-                Spacer()
+//                Spacer()
                 Text("Create a New Wallet")
                     .foregroundStyle(LinearGradient(colors: Color.createWalletBG, startPoint: .top, endPoint: .bottom))
                     .font(.sfProTextMedium(size: 17))
-                Spacer()
+                    .onTapGesture {
+                        showingBottomSheet.toggle()
+                    }
+//                Spacer()
             }
             .frame(width: UIScreen.main.bounds.width - 64, height: 48)
             .background(Color.showMoreButtonBG.cornerRadius(24))
             Button {
-                
+                issue.toggle()
             } label: {
                 Text("I already have one")
                     .foregroundColor(Color.white.opacity(0.8))
@@ -72,7 +88,6 @@ extension WalkThroughtScreenView {
         .padding(.top, 28)
         .padding(.bottom, 19)
         .frame(maxWidth: .infinity, alignment: .bottom)
-        .background(.red)
     }
 }
 
